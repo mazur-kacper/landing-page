@@ -1,5 +1,5 @@
 body {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   margin: 0px;
 }
 
@@ -86,6 +86,11 @@ button {
   flex-direction: column;
   align-items: center;
   padding-top: 80px;
+  padding-left: 300px;
+  padding-right: 300px;
+
+  gap: 50px;
+  height: 400px;
 }
 
 .information-text {
@@ -96,4 +101,65 @@ button {
 
 .container {
   display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 50px;
+}
+
+.item {
+  width: 150px;
+  text-align: center;
+}
+
+.img-border {
+  width: 150px;
+  height: 150px;
+  border-style: solid;
+  border-color: #3882f6;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  background-color: #e5e7eb;
+  justify-content: center;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  font-weight: 300;
+}
+
+.quote-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.signature {
+  align-self: flex-end;
+  padding-right: 50px;
+}
+
+.sign-up {
+  height: 300px;
+  padding-left: 200px;
+  padding-right: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-up-box {
+  background-color: #3882f6;
+  flex: 1;
+  height: 150px;
+
+  border-radius: 8px;
 }
