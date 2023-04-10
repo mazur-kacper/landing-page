@@ -25,6 +25,7 @@ body {
 .left-link li {
   font-size: 24px;
   color: #f9faf8;
+  font-weight: bolder;
 }
 
 .right-links {
@@ -162,4 +163,17 @@ button {
   height: 150px;
 
   border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #f9faf8;
+}
+
+.sign-up-box button {
+  border-style: solid;
+  border-color: white;
+}
+
+.sign-up-header {
+  font-size: 22px;
 }
