@@ -35,3 +35,34 @@
   height: 200px;
   width: 200px;
 }
+
+.quote {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.quote-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-spot {
+  width: 500px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  border: blue 4px solid;
+  border-radius: 10px;
+}
