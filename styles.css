@@ -1,0 +1,9 @@
+.header {
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.links {
+  gap: 50px;
+  display: flex;
+}
