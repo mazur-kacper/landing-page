@@ -18,17 +18,18 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .items {
+  display: flex;
   width: 400px;
   height: 200px;
-  display: flex;
-  gap: 10px;
+  gap: 40px;
+  justify-content: center;
 }
 
 .photo {
-  gap: 10px;
   border: 4px blue solid;
   border-radius: 10px;
   height: 200px;
