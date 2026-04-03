@@ -1,6 +1,14 @@
+body {
+  font-family: Roboto;
+  margin: 0;
+  padding: 0;
+}
+
 .header {
+  padding-top: 25px;
   justify-content: space-evenly;
   display: flex;
+  background-color: #1f2937;
 }
 
 .links {
@@ -9,9 +17,12 @@
 }
 
 .hero {
+  padding-top: 100px;
+  padding-bottom: 100px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  background-color: #1f2937;
 }
 
 .main {
@@ -37,14 +48,17 @@
 }
 
 .quote {
+  height: 400px;
   display: flex;
-
   flex-direction: column;
   align-items: center;
-  margin-top: 200px;
+  justify-content: center;
+  margin-top: 100px;
+  background-color: #e5e7eb;
 }
 
 .quote-text {
+  width: 800px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -62,13 +76,104 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: blue;
-  border: blue 4px solid;
+  background-color: #3882f6;
+  border: #3882f6 4px solid;
   border-radius: 10px;
+}
+
+button {
+  background-color: #3882f6;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 .footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #1f2937;
+}
+
+.left-panel h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.left-panel p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.links div {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.header .logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.quote-text p {
+  font-weight: 300;
+  font-size: 36px;
+  color: #1f2937;
+}
+
+.footer {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: white;
+}
+
+.right-panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: grey;
+  width: 400px;
+  height: 200px;
+}
+
+.right-panel p {
+  color: white;
+}
+
+.action-text {
+  color: white;
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 5px;
+}
+
+.action-text h1,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.action-spot button {
+  border: 3px white solid;
+}
+
+.action-spot {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 800px;
+  height: 100px;
+  display: flex;
+  gap: 100px;
+}
+
+.main {
+  height: 500px;
+}
+
+.quote.signature {
+  display: flex;
+  justify-content: flex-end;
 }
