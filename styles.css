@@ -60,9 +60,16 @@ body {
 
 .quote-text {
   width: 800px;
+}
+
+.text-box {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+}
+
+.text-box p {
+  text-align: end;
+  margin-top: 25px;
 }
 
 .sign-up {
